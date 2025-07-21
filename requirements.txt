@@ -3,3 +3,4 @@ livekit-agents
 livekit-plugins-google
 python-dotenv
 asyncio
+keyboard  # Optional: for real-time spacebar control
