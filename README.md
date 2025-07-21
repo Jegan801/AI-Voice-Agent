@@ -26,45 +26,12 @@ LIVEKIT_API_SECRET=your_api_secret
 
 ## Usage
 
-### Option 1: Cross-Platform (Recommended)
-```bash
-python voice_agent_cross_platform.py
-```
-**Text-based controls:** Type commands like 'pause', 'resume', 'quit' and press Enter.
-
-### Option 2: With Keyboard Library (Real-time spacebar)
-```bash
-pip install keyboard  # May require admin/sudo privileges
-python voice_agent_keyboard.py
-```
-**Real-time controls:** Press SPACEBAR to toggle, ESC to exit (no Enter needed).
-
-### Controls
-
-#### Cross-Platform Version:
-- Type `pause` or `p` + Enter → Pause listening
-- Type `resume` or `r` + Enter → Resume listening  
-- Type `quit` or `q` + Enter → Exit
-- Type `status` or `s` + Enter → Show current status
-
-#### Keyboard Library Version:
-- **SPACEBAR** → Toggle pause/resume instantly
-- **ESC** → Exit application
-- **Ctrl+C** → Force exit
-
 ### Status Indicators
 
 - `🎙️ [RESUMED]` - Agent is actively listening
 - `🎙️ [PAUSED]` - Agent is paused and ignoring audio input
 - `[PAUSED] Ignoring message while paused` - Message received while paused
 
-## Files
-
-- `voice_agent_cross_platform.py` - **Cross-platform solution (recommended)**
-- `voice_agent_keyboard.py` - Real-time spacebar control (requires keyboard lib)
-- `voice_agent_final.py` - Unix/Linux only (requires termios)
-- `voice_agent_enhanced.py` - Advanced features
-- `voice_agent.py` - Basic implementation
 
 ## Configuration
 
