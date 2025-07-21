@@ -26,28 +26,12 @@ LIVEKIT_API_SECRET=your_api_secret
 
 ## Usage
 
-Run the voice agent:
-
-```bash
-python voice_agent_final.py
-```
-
-### Controls
-
-- **SPACEBAR**: Toggle pause/resume listening mode
-- **Ctrl+C**: Exit the application
-
 ### Status Indicators
 
 - `🎙️ [RESUMED]` - Agent is actively listening
 - `🎙️ [PAUSED]` - Agent is paused and ignoring audio input
 - `[PAUSED] Ignoring message while paused` - Message received while paused
 
-## Files
-
-- `voice_agent_final.py` - Main voice agent with spacebar control (recommended)
-- `voice_agent_enhanced.py` - Advanced version with additional features
-- `voice_agent.py` - Basic version with pause/resume functionality
 
 ## Configuration
 
